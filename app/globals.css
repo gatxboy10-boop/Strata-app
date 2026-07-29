@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-display {
+  font-family: 'Fraunces', serif;
+}
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background: #EDE8DD;
+  color: #2B2A28;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
